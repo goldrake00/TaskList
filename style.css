@@ -1,0 +1,95 @@
+/* Global Reset  */
+* {
+    Margin: 0;
+    padding: 0;
+    Box-sizing: border-box;
+}
+
+
+body {
+    padding: 16px;
+    font-family: Inter Tight;
+    background-color: rgb(210, 239, 232);
+}
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* Panel */
+.panel {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(95, 198, 173);
+
+}
+
+/* Add Task Element */
+
+.add-todo {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+input {
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    flex-grow: 1;
+}
+
+button {
+    cursor: pointer;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgb(217, 255, 102);
+}
+
+.empty-list-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    margin: 16px 0;
+    border-radius: 16px;
+}
+
+.todo-text {
+    padding: 16px;
+}
+
+.todo-check {
+    padding: 16px;
+    background-color: rgb(217, 255, 102);
+    border-radius: 16px 0 0 16px;
+    cursor: pointer;
+}
+
+.bigPhoto {
+    width: 200px;
+    border-radius: 16px;
+}
